@@ -1,0 +1,19 @@
+Target Concept: <Sunny, Warm, ?, ?, ?, ?>
+Hypothesis: <0, 0, 0, 0, 0, 0>
+
+Training Example 1: <Sunny, Warm, Normal, Strong, Warm, Same> EnjoySport: Yes
+Hypothesis: <Sunny, Warm, Normal, Strong, Warm, Same>
+
+Training Example 2: <Sunny, Warm, High, Strong, Warm, Same> EnjoySport: Yes
+Hypothesis: <Sunny, Warm, ?, Strong, Warm, Same>
+
+Training Example 3: <Rainy, Cold, High, Strong, Warm, Change> EnjoySport: No
+Hypothesis: <Sunny, Warm, ?, Strong, Warm, Same>
+
+Training Example 4: <Sunny, Warm, High, Strong, Cool, Change> EnjoySport: Yes
+Hypothesis: <Sunny, Warm, ?, Strong, ?, ?>
+
+Additional Training Example:  <Sunny, Warm, High, Weak, Cool, Change> EnjoySport: Yes
+Hypothesis: <Sunny, Warm, ?, ?, ?, ?>
+
+Q1: 1 additional example
